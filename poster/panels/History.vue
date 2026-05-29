@@ -14,16 +14,12 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
 
 <template>
   <PanelHeader style="margin: 0">Biological Inspiration</PanelHeader>
-  <!-- 
-  <div class="bio-inspiration">
-    <img class="eagle-eye" :src="withBase('history/eagle-eye.webp')" />
-    <p style="margin: 8mm 0 0 0">
-      Like an eagle that packs acuity in a tiny area, fast-moving
-      <b>fovea</b> aims where it matters, concentrating limited sensing
-      resources and steering it across a wide prepherial field of view.
-    </p>
-  </div> -->
-  <img class="inspiration" :src="withBase('inspiration.webp')" />
+  <div class="inspiration">
+    <img :src="withBase('inspiration/eagle.webp')" />
+    <img :src="withBase('inspiration/owl.webp')" />
+    <img :src="withBase('inspiration/bat.webp')" />
+    <img :src="withBase('inspiration/cat.webp')" />
+  </div>
 
   <PanelHeader style="margin: 10mm 0">
     A Decade of Foveated Sensing
@@ -147,18 +143,16 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
 </template>
 
 <style scoped>
-/* .bio-inspiration {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-.bio-inspiration p {
-  font-size: 0.6em;
-  color: var(--text-1);
-} */
 .inspiration {
-  margin: 6mm 0 6mm -10mm;
-  width: 102%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8mm 0;
+}
+.inspiration img {
+  width: 22%;
+  height: auto;
+  border-radius: 8mm;
 }
 /* The eagle eye image is a fun nod to the biological inspiration, but it's
    also a convenient way to fill the space and balance the layout. */
