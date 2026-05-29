@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="900" height="1000" version="1.1" viewBox="0 0 900 960">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #ee220c;
+        stroke-dasharray: 1 1;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12 {
+        fill: none;
+      }
+
+      .st13 {
+        fill: #0096ff;
+      }
+
+      .st1 {
+        stroke: #c00000;
+      }
+
+      .st1, .st14, .st3, .st8, .st9, .st10 {
+        stroke-width: 2px;
+      }
+
+      .st15 {
+        fill: #009193;
+      }
+
+      .st15, .st16 {
+        opacity: .2;
+      }
+
+      .st14 {
+        fill: #bfbfbf;
+        stroke: #404040;
+        stroke-dasharray: 4 8;
+      }
+
+      .st14, .st5 {
+        stroke-linecap: square;
+      }
+
+      .st17 {
+        fill: #ffb7ac;
+      }
+
+      .st2 {
+        stroke: gray;
+      }
+
+      .st2, .st7 {
+        stroke-dasharray: 2 2;
+      }
+
+      .st3, .st5, .st7, .st11 {
+        stroke: #000;
+      }
+
+      .st4 {
+        stroke: #7f1100;
+      }
+
+      .st4, .st12 {
+        stroke-width: 3px;
+      }
+
+      .st5 {
+        stroke-dasharray: 1 6 6 6;
+        stroke-width: 1.5px;
+      }
+
+      .st18 {
+        fill: #7f1101;
+      }
+
+      .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30 {
+        font-weight: 700;
+      }
+
+      .st18, .st26 {
+        font-family: HelveticaNeue-Bold, 'Helvetica Neue';
+        font-size: 64px;
+        opacity: .8;
+      }
+
+      .st6 {
+        stroke-dasharray: 1 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st6, .st10 {
+        stroke: #5e5e5e;
+      }
+
+      .st31, .st22, .st25 {
+        fill: #c00000;
+      }
+
+      .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st27, .st28, .st29, .st30 {
+        font-size: 32px;
+      }
+
+      .st19, .st20, .st25, .st30 {
+        font-family: TimesNewRomanPS-BoldItalicMT, 'Times New Roman';
+        font-style: italic;
+      }
+
+      .st19, .st32, .st29 {
+        fill: #215154;
+      }
+
+      .st16 {
+        fill: red;
+      }
+
+      .st21 {
+        fill: #404040;
+      }
+
+      .st21, .st22, .st23, .st24, .st27, .st28, .st29 {
+        font-family: TimesNewRomanPS-BoldMT, 'Times New Roman';
+      }
+
+      .st22, .st28 {
+        letter-spacing: 0em;
+      }
+
+      .st33 {
+        fill: #d0e3e4;
+      }
+
+      .st23 {
+        fill: #005493;
+      }
+
+      .st8 {
+        stroke: #215154;
+      }
+
+      .st9 {
+        stroke: #005493;
+      }
+
+      .st34 {
+        letter-spacing: -.1em;
+      }
+
+      .st35 {
+        letter-spacing: 0em;
+      }
+
+      .st25, .st27, .st30 {
+        letter-spacing: .1em;
+      }
+
+      .st26 {
+        fill: #005154;
+      }
+
+      .st10 {
+        stroke-dasharray: 4 4;
+      }
+
+      .st11 {
+        stroke-width: 4px;
+      }
+
+      .st12 {
+        stroke: #005153;
+      }
+    </style>
+  </defs>
+  <line class="st7" x1="500.5" y1="532.7" x2="700.5" y2="732.7"/>
+  <line class="st2" x1="500.5" y1="732.7" x2="700.5" y2="532.7"/>
+  <polygon class="st6" points="601.5 851.3 609.6 633 592.4 633 601.5 851.3"/>
+  <path class="st13" d="M621.5,604c16-11.6,19.6-8,8,8-11.6,16-34,38.4-50,50-16,11.6-19.6,8-8-8,11.6-16,34-38.4,50-50Z"/>
+  <path class="st9" d="M621.5,604c16-11.6,19.6-8,8,8-11.6,16-34,38.4-50,50-16,11.6-19.6,8-8-8,11.6-16,34-38.4,50-50Z"/>
+  <text class="st24" transform="translate(788.1 204.5)"><tspan x="0" y="0">Beam </tspan></text>
+  <text class="st24" transform="translate(788.1 243.5)"><tspan x="0" y="0">Splitter</tspan></text>
+  <polygon class="st15" points="720.5 249 400.5 369 546 423.5 720.5 249"/>
+  <polygon class="st0" points="609.6 623.9 390.3 633 592.1 641.5 609.6 623.9"/>
+  <polygon class="st10" points="720.5 249 400.5 369 546 423.5 720.5 249"/>
+  <path class="st33" d="M307.1,309.5c-5.3,0-9.6,6.1-9.6,13.6v91.7c0,7.5,4.3,13.6,9.6,13.6h100.6c5.3,0,9.6-6.1,9.6-13.6v-22.7c1.8,1.5,3.8,3.1,5.1,4.2l21,17.1c2.3,1.9,4.2.4,4.2-3.4v-82.3c0-3.8-1.9-5.3-4.2-3.4l-21,17.1c-1.4,1.1-3.3,2.7-5.1,4.2v-22.7c0-7.5-4.3-13.6-9.6-13.6h-100.6Z"/>
+  <polygon class="st10" points="300.5 -225.3 544.4 425.1 723.9 245.5 900.5 -225.3 300.5 -225.3"/>
+  <path class="st12" d="M307.1,309.5c-5.3,0-9.6,6.1-9.6,13.6v91.7c0,7.5,4.3,13.6,9.6,13.6h100.6c5.3,0,9.6-6.1,9.6-13.6v-22.7c1.8,1.5,3.8,3.1,5.1,4.2l21,17.1c2.3,1.9,4.2.4,4.2-3.4v-82.3c0-3.8-1.9-5.3-4.2-3.4l-21,17.1c-1.4,1.1-3.3,2.7-5.1,4.2v-22.7c0-7.5-4.3-13.6-9.6-13.6h-100.6Z"/>
+  <text class="st26" transform="translate(327.2 392.7)"><tspan x="0" y="0">W</tspan></text>
+  <polygon class="st16" points="609.6 623.9 390.3 633 592.1 641.5 609.6 623.9"/>
+  <text class="st24" transform="translate(108.1 361.6)"><tspan x="0" y="0">Wide Angle </tspan></text>
+  <text class="st24" transform="translate(160.9 400.6)"><tspan x="0" y="0">Camera</tspan></text>
+  <polygon class="st15" points="300.5 -225.3 544.4 425.1 723.9 245.6 900.5 -225.3 300.5 -225.3"/>
+  <text class="st24" transform="translate(5 625.6)"><tspan class="st34" x="0" y="0">T</tspan><tspan x="17.8" y="0">elephoto </tspan></text>
+  <text class="st24" transform="translate(34.7 664.6)"><tspan x="0" y="0">Camera</tspan></text>
+  <text class="st23" transform="translate(656.7 625.6)"><tspan x="0" y="0">MEMS </tspan></text>
+  <text class="st23" transform="translate(656.7 664.6)"><tspan x="0" y="0">Mir</tspan><tspan class="st35" x="53.3" y="0">r</tspan><tspan x="67" y="0">or</tspan></text>
+  <path class="st17" d="M195.3,573.6c-9.5,0-17.3,6.1-17.3,13.6v91.7c0,7.5,7.8,13.6,17.3,13.6h180.6c9.5,0,17.3-6.1,17.3-13.6v-22.7c3.3,1.5,6.7,3.1,9.2,4.2l37.7,17.1c4.1,1.9,7.5.4,7.5-3.4v-82.3c0-3.8-3.4-5.3-7.5-3.4l-37.7,17.1c-2.5,1.1-6,2.7-9.2,4.2v-22.7c0-7.5-7.8-13.6-17.3-13.6h-180.6Z"/>
+  <path class="st4" d="M195.3,573.6c-9.5,0-17.3,6.1-17.3,13.6v91.7c0,7.5,7.8,13.6,17.3,13.6h180.6c9.5,0,17.3-6.1,17.3-13.6v-22.7c3.3,1.5,6.7,3.1,9.2,4.2l37.7,17.1c4.1,1.9,7.5.4,7.5-3.4v-82.3c0-3.8-3.4-5.3-7.5-3.4l-37.7,17.1c-2.5,1.1-6,2.7-9.2,4.2v-22.7c0-7.5-7.8-13.6-17.3-13.6h-180.6Z"/>
+  <text class="st18" transform="translate(266.1 656.8)"><tspan x="0" y="0">T</tspan></text>
+  <polygon class="st16" points="550.5 -370 592.6 640.9 609 624.5 650.5 -370 550.5 -370"/>
+  <polygon class="st0" points="550.5 -370 592.6 640.9 609 624.5 650.5 -370 550.5 -370"/>
+  <text class="st19" transform="translate(638.8 126.8)"><tspan x="0" y="0">α</tspan></text>
+  <text class="st29" transform="translate(656.5 137.5) scale(.6)"><tspan x="0" y="0">W</tspan></text>
+  <text class="st29" transform="translate(675.2 126.8)"><tspan x="0" y="0"> </tspan></text>
+  <path class="st14" d="M568.5,888c0,3.9,3.3,7,7.4,7h49.9c4.1,0,7.4-3.2,7.4-7v-73.2c0-3.9-3.3-7-7.4-7h-12.3c.8-1.3,1.7-2.7,2.3-3.7l9.3-15.3c1-1.7.2-3-1.8-3h-44.8c-2,0-2.9,1.4-1.8,3l9.3,15.3c.6,1,1.5,2.4,2.3,3.7h-12.3c-4.1,0-7.4,3.2-7.4,7v73.2Z"/>
+  <line class="st11" x1="424" y1="545.4" x2="776.9" y2="192.5"/>
+  <path class="st1" d="M573.3,58.2l1-.2c19.2-3.7,36.7-3.7,52.5,0l1,.3"/>
+  <polygon class="st31" points="621.2 62 631.7 59.8 623.7 52.7 624.8 58 621.2 62"/>
+  <polygon class="st31" points="577.6 52.8 569.2 59.5 579.6 62.2 576.3 58 577.6 52.8"/>
+  <text class="st25" transform="translate(584.6 39.5)"><tspan x="0" y="0">α</tspan></text>
+  <text class="st22" transform="translate(605.5 50.2) scale(.6)"><tspan x="0" y="0">T</tspan></text>
+  <text class="st27" transform="translate(711.5 525.6)"><tspan x="0" y="0">∆θ </tspan></text>
+  <path class="st3" d="M722.4,549.3l-.5-.8c-11-16.2-23.3-28.5-37.1-37.1l-.9-.5"/>
+  <polygon points="684.4 516.7 678.5 507.8 689.2 508.4 684.7 511.4 684.4 516.7"/>
+  <polygon points="724.5 543.9 725.8 554.5 716.5 549.1 721.8 548.5 724.5 543.9"/>
+  <path class="st8" d="M449.5,164.5l.8-.3c100.2-36.7,200.4-36.6,300.5.3l.8.3"/>
+  <polygon class="st32" points="742.9 166.7 753.6 166.3 746.8 158 747 163.3 742.9 166.7"/>
+  <polygon class="st32" points="454.1 157.6 447.4 165.9 458.1 166.4 453.9 163 454.1 157.6"/>
+  <text class="st21" transform="translate(650 842.1)"><tspan x="0" y="0">Virtual</tspan><tspan x="0" y="38.4">Camera</tspan></text>
+  <g>
+    <line class="st5" x1="418.1" y1="369" x2="600.5" y2="369"/>
+    <path d="M418.1,373.2c-2.3,0-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2,4.2,1.9,4.2,4.2-1.9,4.2-4.2,4.2Z"/>
+    <path d="M600.5,373.2c2.3,0,4.2-1.9,4.2-4.2s-1.9-4.2-4.2-4.2-4.2,1.9-4.2,4.2,1.9,4.2,4.2,4.2Z"/>
+  </g>
+  <g>
+    <line class="st5" x1="599.6" y1="369" x2="601.3" y2="807"/>
+    <path d="M595.4,369c0-2.3,1.9-4.2,4.2-4.2,2.3,0,4.2,1.9,4.2,4.2,0,2.3-1.9,4.2-4.2,4.2-2.3,0-4.2-1.9-4.2-4.2Z"/>
+    <path d="M597.1,807c0,2.3,1.9,4.2,4.2,4.2,2.3,0,4.2-1.9,4.2-4.2,0-2.3-1.9-4.2-4.2-4.2s-4.2,1.9-4.2,4.2Z"/>
+  </g>
+  <text class="st20" transform="translate(490.1 396.8)"><tspan x="0" y="0">D</tspan></text>
+  <text class="st24" transform="translate(513.2 407.5) scale(.6)"><tspan x="0" y="0">W</tspan></text>
+  <text class="st24" transform="translate(531.9 396.8)"><tspan x="0" y="0"> </tspan></text>
+  <text class="st30" transform="translate(611.3 721.4)"><tspan x="0" y="0">D</tspan></text>
+  <text class="st28" transform="translate(637.6 732) scale(.6)"><tspan x="0" y="0">T</tspan></text>
+  <text/>
+  <text class="st30" transform="translate(559.4 960.9)"><tspan x="0" y="0">2×∆θ </tspan></text>
+  <path class="st3" d="M544.6,924.6l2,.4c38.4,7.3,73.4,7.3,105,0l1.9-.5"/>
+  <polygon points="645.7 921.3 656.2 923.4 648.2 930.5 649.3 925.3 645.7 921.3"/>
+  <polygon points="549.1 930.5 540.7 923.8 551.1 921.1 547.8 925.3 549.1 930.5"/>
+</svg>

@@ -1,0 +1,193 @@
+/* ============================================================================
+   Adaptive Foveated Computational Cameras — poster stylesheet
+   Canvas is a fixed-size A0 landscape sheet (1189 × 841 mm) so that every
+   length is a true physical dimension at print time. On screen the sheet is
+   scaled to fit the viewport via a CSS transform; print resets the transform
+   and emits the sheet at 1:1.
+   ========================================================================== */
+
+:root {
+  /* A0 landscape, in mm */
+  --page-w: 1189;
+  --page-h: 841;
+
+  /* Brand (UF / FOCUS Lab blue) */
+  --blue: hsl(212 100% 30%);
+  --blue-2: hsl(212 100% 24%);
+  --blue-soft: hsl(212 100% 96%);
+  --blue-line: hsl(212 60% 86%);
+
+  /* Heritage (dark) column — echoes the original talk slides */
+  --ink: hsl(240 8% 9%);
+  --ink-2: hsl(240 7% 13%);
+  --ink-line: hsl(240 6% 26%);
+  --yellow: hsl(48 100% 60%);
+  --orange: hsl(28 100% 62%);
+
+  /* Light research surfaces */
+  --paper: hsl(0 0% 100%);
+  --paper-2: hsl(210 20% 98%);
+  --paper-3: hsl(210 24% 95%);
+  --text: hsl(220 18% 16%);
+  --text-2: hsl(220 12% 38%);
+  --line: hsl(214 24% 88%);
+
+  /* Typography convention: stick to Arial whenever possible, fallback to Helvetica and sans-serif */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Type scale, in mm (1 mm ≈ 2.835 pt) */
+  --fs-title: 31mm;
+  --fs-subtitle: 8.4mm;
+  --fs-section: 15mm;
+  --fs-sectionsub: 6.4mm;
+  --fs-h: 6.6mm;
+  --fs-body: 4.55mm;
+  --fs-small: 3.8mm;
+  --fs-cap: 3.5mm;
+  --fs-micro: 3.1mm;
+
+  --sp: 4mm; /* base spacing unit */
+  --radius: 3mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+svg {
+  overflow: visible;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(220 14% 32%);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Blocks of running prose opt into the serif face. */
+.prose {
+  font-family: var(--font-serif);
+}
+
+/* ── On-screen stage: centers and scales the sheet ────────────────────────── */
+.stage {
+  /* Scroll viewport. The sheet is centred when it fits and pans with native
+     wheel / two-finger trackpad scroll once zoomed past the viewport. */
+  position: fixed;
+  inset: 0;
+  overflow: auto;
+  display: flex;
+}
+
+.sheet-scaler {
+  /* width/height are set inline from JS to the scaled footprint so the page
+     scrolls correctly; the sheet itself is transformed inside. margin:auto
+     centres it while it fits, then collapses to 0 on overflow (so the
+     top-left stays reachable — flexbox doesn't clip auto margins). */
+  position: relative;
+  margin: auto;
+}
+
+.poster {
+  width: calc(var(--page-w) * 1mm);
+  height: calc(var(--page-h) * 1mm);
+  background: var(--paper);
+  color: var(--text);
+  font-size: var(--fs-body);
+  line-height: 1.32;
+  overflow: hidden;
+  transform-origin: top left;
+  box-shadow: 0 8mm 30mm rgba(0, 0, 0, 0.45);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* ── Toolbar (screen only) ────────────────────────────────────────────────── */
+.toolbar {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 50;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: rgba(20, 22, 28, 0.86);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+.toolbar button {
+  font: inherit;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 7px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.toolbar button:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+.toolbar .zoom-val {
+  min-width: 4ch;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Shared primitives ────────────────────────────────────────────────────── */
+.eyebrow {
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: var(--fs-body);
+  margin: 0;
+}
+
+.muted {
+  color: var(--text-2);
+}
+
+/* ── Print: 1:1 physical output ───────────────────────────────────────────── */
+@page {
+  size: 1189mm 841mm;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff;
+    width: 1189mm;
+    height: 841mm;
+  }
+  .stage {
+    position: static;
+    overflow: visible;
+    display: block;
+    padding: 0;
+    min-height: 0;
+  }
+  .toolbar {
+    display: none !important;
+  }
+  .sheet-scaler {
+    width: 1189mm !important;
+    height: 841mm !important;
+  }
+  .poster {
+    transform: none !important;
+    box-shadow: none;
+    page-break-after: avoid;
+  }
+}

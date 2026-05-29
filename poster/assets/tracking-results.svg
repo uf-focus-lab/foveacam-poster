@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  width="2599"
+  height="1400.3"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  viewBox="0 0 2599 1400.3"
+>
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0,
+      .st1,
+      .st2,
+      .st3 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-dasharray: 18 18;
+      }
+
+      .st1,
+      .st2 {
+        stroke-width: 3px;
+      }
+
+      .st1,
+      .st2,
+      .st3 {
+        stroke: #000;
+      }
+
+      .st4,
+      .st5,
+      .st6,
+      .st7,
+      .st8,
+      .st9 {
+        font-family: TimesNewRomanPS-BoldMT, "Times New Roman";
+        font-weight: 700;
+      }
+
+      .st4,
+      .st7,
+      .st9 {
+        fill: #fff;
+      }
+
+      .st4,
+      .st8 {
+        font-size: 32px;
+      }
+
+      .st5 {
+        font-size: 50px;
+      }
+
+      .st10 {
+        fill: #00d701;
+      }
+
+      .st11 {
+        fill: #0510f7;
+      }
+
+      .st31 {
+        fill: #050fff;
+      }
+
+      .st40 {
+        font-size: 48px;
+      }
+
+      .st40,
+      .st41 {
+        font-family: TimesNewRomanPSMT, "Times New Roman";
+      }
+
+      .st42 {
+        fill: #fe1701;
+      }
+
+      .st41,
+      .st7 {
+        font-size: 40px;
+      }
+
+      .st43 {
+        opacity: 0.5;
+      }
+
+      .st44 {
+        fill: #0fd10d;
+      }
+
+      .st45 {
+        fill: red;
+      }
+
+      .st46 {
+        letter-spacing: 0em;
+      }
+
+      .st6 {
+        font-size: 32.7px;
+      }
+
+      .st47 {
+        letter-spacing: 0em;
+      }
+
+      .st48 {
+        letter-spacing: 0em;
+      }
+
+      .st49 {
+        letter-spacing: 0em;
+      }
+
+      .st50 {
+        letter-spacing: 0em;
+      }
+
+      .st51 {
+        letter-spacing: 0em;
+      }
+
+      .st52 {
+        letter-spacing: 0em;
+      }
+
+      .st53 {
+        letter-spacing: 0em;
+      }
+
+      .st9 {
+        font-size: 42px;
+      }
+
+      .st55 {
+        letter-spacing: 0em;
+      }
+
+      .st56 {
+        letter-spacing: 0em;
+      }
+
+      .st3 {
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g class="st54">
+    <text class="st5" transform="translate(350 99.4)">
+      <tspan x="0" y="0">Annotated</tspan>
+      <tspan class="st50" x="225" y="0" xml:space="preserve">W</tspan>
+      <tspan x="285.7" y="0">ide</tspan>
+      <tspan class="st52" x="349.6" y="0"></tspan>
+      <tspan x="359.4" y="0">Angle Camera</tspan>
+      <tspan class="st49" x="669" y="0"></tspan>
+      <tspan class="st53" x="680.6" y="0">V</tspan>
+      <tspan x="714.9" y="0">iew</tspan>
+    </text>
+    <line class="st1" x1="1487" y1="2.4" x2="1487" y2="1402.4" />
+    <line class="st1" x1="2043" y1="2.4" x2="2043" y2="1402.4" />
+    <text class="st5" transform="translate(1566.5 69.4)">
+      <tspan x="0" y="0">Foveated</tspan>
+      <tspan class="st50" x="194.4" y="0"></tspan>
+      <tspan class="st46" x="206" y="0">T</tspan>
+      <tspan x="235.6" y="0">rackers</tspan>
+    </text>
+    <text class="st41" transform="translate(1558.6 131)">
+      <tspan x="0" y="0">Continuous</tspan>
+      <tspan class="st48" x="184.5" y="0"></tspan>
+      <tspan class="st47" x="193.8" y="0">V</tspan>
+      <tspan x="220.2" y="0">ideo Stream</tspan>
+    </text>
+    <text class="st5" transform="translate(2108 69.4)">
+      <tspan x="0" y="0">Matched</tspan>
+      <tspan class="st50" x="188.8" y="0" xml:space="preserve">W</tspan>
+      <tspan x="249.5" y="0">ide</tspan>
+      <tspan class="st49" x="313.4" y="0"></tspan>
+      <tspan class="st53" x="325" y="0">V</tspan>
+      <tspan x="359.3" y="0">iew</tspan>
+    </text>
+    <text class="st41" transform="translate(2124.3 131)">
+      <tspan x="0" y="0">Cropped to Match Fovea</tspan>
+    </text>
+    <line class="st3" y1="162.4" x2="2599" y2="162.4" />
+  </g>
+  <g class="st34">
+    <g class="st32">
+      <image
+        width="456"
+        height="346"
+        transform="translate(1537 212.3)"
+        xlink:href="/tracking-results/1.webp"
+      />
+    </g>
+  </g>
+  <g class="st33">
+    <g class="st39">
+      <image
+        width="456"
+        height="346"
+        transform="translate(1537 608.3)"
+        xlink:href="/tracking-results/2.webp"
+      />
+    </g>
+  </g>
+  <g class="st36">
+    <g class="st35">
+      <image
+        width="456"
+        height="346"
+        transform="translate(1537 1004.3)"
+        xlink:href="/tracking-results/3.webp"
+      />
+    </g>
+  </g>
+  <g class="st38">
+    <g class="st37">
+      <image
+        width="457"
+        height="347"
+        transform="translate(2093 212.1)"
+        xlink:href="/tracking-results/4.webp"
+      />
+    </g>
+  </g>
+  <g class="st17">
+    <g class="st14">
+      <image
+        width="457"
+        height="347"
+        transform="translate(2093 608.1)"
+        xlink:href="/tracking-results/5.webp"
+      />
+    </g>
+  </g>
+  <g class="st21">
+    <g class="st19">
+      <image
+        width="457"
+        height="347"
+        transform="translate(2093 1004.1)"
+        xlink:href="/tracking-results/6.webp"
+      />
+    </g>
+  </g>
+  <g class="st20">
+    <g class="st18">
+      <image
+        width="1387"
+        height="1040"
+        transform="translate(50 212.3)"
+        xlink:href="/tracking-results/7.webp"
+      />
+    </g>
+  </g>
+  <g class="st15">
+    <path
+      class="st42"
+      d="M880.7,580.8h24.7c2.2,0,3.6,0,4.5.4,1.3.5,2.3,1.5,2.8,2.8.4.9.4,2.2.4,4.5v24.7c0,2.2,0,3.6-.4,4.5-.5,1.3-1.5,2.3-2.8,2.8-.9.4-2.2.4-4.5.4h-24.7c-2.2,0-3.6,0-4.5-.4-1.3-.5-2.3-1.5-2.8-2.8-.4-.9-.4-2.2-.4-4.5v-24.7c0-2.2,0-3.6.4-4.5.5-1.3,1.5-2.3,2.8-2.8.9-.4,2.2-.4,4.5-.4Z"
+    />
+  </g>
+  <g class="st12">
+    <text class="st4" transform="translate(885 611)">
+      <tspan x="0" y="0">1</tspan>
+    </text>
+  </g>
+  <g class="st16">
+    <path
+      class="st45"
+      d="M1537,212.3v20h0c0,1.5,0,2.6,0,4.5v11.1c0,1.8,0,3,0,4.5h0v28h6c0-2.1.7-4.2,2.3-5.8,1.3-1.3,3-1.9,4.7-2.2h6.9c1.5,0,2.6,0,4.5,0h51.1c7.2,0,11.5,0,14.4-1.2,4.1-1.5,7.4-4.8,8.9-8.9,1.2-2.9,1.2-7.2,1.2-14.4v-11.1c0-1.8,0-3,0-4.5h0v-6.9c.2-1.7.8-3.4,2.2-4.7,1.6-1.6,3.7-2.4,5.8-2.3v-6h-28c-1.5,0-2.6,0-4.5,0h-51.1c-1.8,0-3,0-4.5,0h0c0,0-20,0-20,0Z"
+    />
+    <text class="st9" transform="translate(1561.4 254.3)">
+      <tspan class="st55" x="0" y="0">T</tspan>
+      <tspan x="30.1" y="0">1</tspan>
+    </text>
+    <rect class="st43" x="2099" y="221.1" width="100" height="50.2" />
+  </g>
+  <g class="st13">
+    <text class="st7" transform="translate(2118 260.2)">
+      <tspan class="st56" x="0" y="0">W</tspan>
+      <tspan x="42" y="0">1</tspan>
+    </text>
+  </g>
+  <g class="st25">
+    <path
+      class="st10"
+      d="M1537,608.3v20h0c0,1.5,0,2.6,0,4.5v11.1c0,1.8,0,3,0,4.5h0v28h6c0-2.1.7-4.2,2.3-5.8,1.3-1.3,3-2,4.7-2.2h6.9c1.5,0,2.6,0,4.5,0h51.1c7.2,0,11.5,0,14.4-1.2,4.1-1.5,7.4-4.8,8.9-8.9,1.2-2.9,1.2-7.2,1.2-14.4v-11.1c0-1.8,0-3,0-4.5h0v-6.9c.2-1.7.8-3.4,2.2-4.7,1.6-1.6,3.7-2.4,5.8-2.3v-6h-28c-1.5,0-2.6,0-4.5,0h-51.1c-1.8,0-3,0-4.5,0h0c0,0-20,0-20,0Z"
+    />
+    <text class="st9" transform="translate(1561.4 650.3)">
+      <tspan class="st55" x="0" y="0">T</tspan>
+      <tspan x="30.1" y="0">2</tspan>
+    </text>
+    <rect class="st43" x="2099" y="617.1" width="100" height="50.2" />
+  </g>
+  <g class="st26">
+    <text class="st7" transform="translate(2118 656.2)">
+      <tspan class="st56" x="0" y="0">W</tspan>
+      <tspan x="42" y="0">2</tspan>
+    </text>
+  </g>
+  <g class="st27">
+    <path
+      class="st31"
+      d="M1537,1004.3v20h0c0,1.5,0,2.6,0,4.5v11.1c0,1.8,0,3,0,4.5h0v28h6c0-2.1.7-4.2,2.3-5.8,1.3-1.3,3-2,4.7-2.2h6.9c1.5,0,2.6,0,4.5,0h51.1c7.2,0,11.5,0,14.4-1.2,4.1-1.5,7.4-4.8,8.9-8.9,1.2-2.9,1.2-7.2,1.2-14.4v-11.1c0-1.8,0-3,0-4.5h0v-6.9c.2-1.7.8-3.4,2.2-4.7,1.6-1.6,3.7-2.4,5.8-2.3v-6h-28c-1.5,0-2.6,0-4.5,0h-51.1c-1.8,0-3,0-4.5,0h0c0,0-20,0-20,0Z"
+    />
+    <text class="st9" transform="translate(1561.4 1046.3)">
+      <tspan class="st55" x="0" y="0">T</tspan>
+      <tspan x="30.1" y="0">3</tspan>
+    </text>
+    <rect class="st43" x="2099" y="1013.1" width="100" height="50.2" />
+  </g>
+  <g class="st28">
+    <text class="st7" transform="translate(2118 1052.2)">
+      <tspan class="st56" x="0" y="0">W</tspan>
+      <tspan x="42" y="0">3</tspan>
+    </text>
+  </g>
+  <g class="st29">
+    <path
+      class="st44"
+      d="M1030,521.5h24.7c2.2,0,3.6,0,4.5.4,1.3.5,2.3,1.5,2.8,2.8.4.9.4,2.2.4,4.5v24.7c0,2.2,0,3.6-.4,4.5-.5,1.3-1.5,2.3-2.8,2.8-.9.4-2.2.4-4.5.4h-24.7c-2.2,0-3.6,0-4.5-.4-1.3-.5-2.3-1.5-2.8-2.8-.4-.9-.4-2.2-.4-4.5v-24.7c0-2.2,0-3.6.4-4.5.5-1.3,1.5-2.3,2.8-2.8.9-.4,2.2-.4,4.5-.4Z"
+    />
+  </g>
+  <g class="st30">
+    <text class="st4" transform="translate(1034.3 551.7)">
+      <tspan x="0" y="0">2</tspan>
+    </text>
+  </g>
+  <g class="st23">
+    <path
+      class="st11"
+      d="M649.9,553h24.7c2.2,0,3.6,0,4.5.4,1.3.5,2.3,1.5,2.8,2.8.4.9.4,2.2.4,4.5v24.7c0,2.2,0,3.6-.4,4.5-.5,1.3-1.5,2.3-2.8,2.8-.9.4-2.2.4-4.5.4h-24.7c-2.2,0-3.6,0-4.5-.4-1.3-.5-2.3-1.5-2.8-2.8-.4-.9-.4-2.2-.4-4.5v-24.7c0-2.2,0-3.6.4-4.5.5-1.3,1.5-2.3,2.8-2.8.9-.4,2.2-.4,4.5-.4Z"
+    />
+  </g>
+  <g class="st22">
+    <text class="st4" transform="translate(654.2 583.2)">
+      <tspan x="0" y="0">3</tspan>
+    </text>
+  </g>
+  <g class="st24">
+    <line class="st2" x1="0" y1="1398.7" x2="2599" y2="1398.7" />
+    <line class="st2" x1="0" y1="-2472.2" x2="2599" y2="-2472.2" />
+  </g>
+  <text class="st40" transform="translate(313.5 1341.4)">
+    <tspan class="st51" x="0" y="0">A</tspan>
+    <tspan x="32" y="0" xml:space="preserve">cyclist</tspan>
+  </text>
+  <text class="st8" transform="translate(490.5 1330.8)">
+    <tspan x="0" y="0" xml:space="preserve">(</tspan>
+  </text>
+  <text class="st6" transform="translate(509.1 1330.6)">
+    <tspan x="0" y="0">1)</tspan>
+  </text>
+  <text class="st40" transform="translate(536.4 1341.4)">
+    <tspan x="0" y="0">, bus signage</tspan>
+  </text>
+  <text class="st8" transform="translate(797.7 1330.8)">
+    <tspan x="0" y="0">(2)</tspan>
+  </text>
+  <text class="st40" transform="translate(835 1341.4)">
+    <tspan x="0" y="0" xml:space="preserve">and a red vehicle</tspan>
+  </text>
+  <text class="st8" transform="translate(1173.5 1330.8)">
+    <tspan x="0" y="0" xml:space="preserve">(3)</tspan>
+  </text>
+</svg>

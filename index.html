@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive Foveated Computational Cameras — FOCUS Lab</title>
+    <meta
+      name="description"
+      content="A decade of adaptive foveated computational cameras from the FOCUS Lab (UF). Bio-inspired MEMS-steered sensing, FoveaCam++ (IROS 2024), and FoveaCam Duo foveated stereo (ICCP 2026)."
+    />
+  </head>
+  <body>
+    <div id="poster"></div>
+    <script type="module" lang="ts">
+      import { createApp } from "vue";
+      import Poster from "./poster/index.vue";
+      import "./poster/index.css";
+      const poster = document.createElement("div");
+      document.body.appendChild(poster);
+      createApp(Poster).mount(poster);
+    </script>
+  </body>
+</html>

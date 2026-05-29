@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 240 3840 840">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #006c65;
+      }
+
+      .st0,
+      .st1,
+      .st2,
+      .st3 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0,
+      .st1,
+      .st2,
+      .st3 {
+        font-size: 50px;
+      }
+
+      .st1,
+      .st2 {
+        fill: #b51700;
+      }
+
+      .st4 {
+        stroke: #004d80;
+      }
+
+      .st4,
+      .st5,
+      .st6 {
+        fill: none;
+        stroke-dasharray: 16 12;
+        stroke-width: 5px;
+      }
+
+      .st3 {
+        fill: #004d80;
+      }
+
+      .st7 {
+        letter-spacing: 0em;
+      }
+
+      .st8 {
+        letter-spacing: 0em;
+      }
+
+      .st5 {
+        stroke: #b51700;
+      }
+
+      .st6 {
+        stroke: #006c65;
+      }
+    </style>
+  </defs>
+  <image width="3840" height="1080" xlink:href="/FoveaCamPlusPano.webp" />
+  <text class="st3" transform="translate(5.7 849.2)">
+    <tspan class="st8" x="0" y="0">W</tspan>
+    <tspan x="43.4" y="0">ide Camera</tspan>
+  </text>
+  <path class="st4" d="M316.6,835.8c88.9-2.7,138.1-41.1,146.7-87.3l.6-1.9" />
+  <text class="st3" transform="translate(306.2 309.8)">
+    <tspan x="0" y="0">Beam Splitter</tspan>
+  </text>
+  <path class="st4" d="M286.1,297.5c-93.6,0-148.9,36.5-147.1,128.6v2" />
+  <text class="st3" transform="translate(685.4 794.7)">
+    <tspan class="st7" x="0" y="0">T</tspan>
+    <tspan x="26" y="0">elephoto Camera</tspan>
+  </text>
+  <path class="st4" d="M1117,784.2c124-17.9,142.8-138-47-174.6l-1.8-.8" />
+  <text class="st1" transform="translate(2080.2 849.2)">
+    <tspan x="0" y="0">MEMS Driver</tspan>
+  </text>
+  <path class="st5" d="M2064.9,830.4c-82.3,0-114.8-67.6-121.4-126.3l-.6-1.9" />
+  <text class="st2" transform="translate(1265.2 849.3)">
+    <tspan x="0" y="0">Micro Controller</tspan>
+  </text>
+  <path class="st5" d="M1653,833.1c80.8-.7,111-66.8,119.8-117.2l.3-2" />
+  <text class="st2" transform="translate(1761.9 309.2)">
+    <tspan x="0" y="0">MEMS Mirror</tspan>
+  </text>
+  <path class="st5" d="M2083.8,297.5c182.4,0,243.2,76.5,245.5,162.2" />
+  <text class="st0" transform="translate(2486 876.8)">
+    <tspan x="0" y="0">Display Mount</tspan>
+  </text>
+  <polyline class="st6" points="2833.1 864.6 2909.5 865.3 2911.5 865.3" />
+  <text class="st0" transform="translate(2672.9 309.2)">
+    <tspan x="0" y="0">Computer</tspan>
+  </text>
+  <path class="st6" d="M2911.5,287.5c89.5,0,188.6,22.8,194,129v2" />
+  <text class="st0" transform="translate(3150 966)">
+    <tspan x="0" y="0">Aperture Ring</tspan>
+  </text>
+  <path class="st6" d="M3487.9,950.4c72.6,0,72.6-98.5,72.6-176.9" />
+</svg>
