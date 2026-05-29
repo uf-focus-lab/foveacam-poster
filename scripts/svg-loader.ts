@@ -33,11 +33,11 @@ function withBase(baseUrl: string, path: string) {
 function rewriteAbsoluteUrls(value: string, baseUrl: string) {
   return value
     .replace(
-      /(href|xlink:href|src)=["']\\/([^"']*)["']/g,
+      /(href|xlink:href|src)=["']\/([^"']*)["']/g,
       (_, attr, path) => `${attr}="${withBase(baseUrl, path)}"`,
     )
     .replace(
-      /url\\(\\s*['"]?\\/([^'")\\s]+)['"]?\\s*\\)/g,
+      /url\(\s*['"]?\/([^'")\s]+)['"]?\s*\)/g,
       (_, path) => `url(${withBase(baseUrl, path)})`,
     );
 }
@@ -95,7 +95,7 @@ export default function svgLoader(options: SvgLoaderOptions = {}): Plugin {
           next = withBase(baseUrl, value);
         }
         next = next.replace(
-          /url\\(\\s*['"]?\\/([^'")\\s]+)['"]?\\s*\\)/g,
+          /url\(\s*['"]?\/([^'")\s]+)['"]?\s*\)/g,
           (_, path) => `url(${withBase(baseUrl, path)})`,
         );
         attrs[key] = next;
