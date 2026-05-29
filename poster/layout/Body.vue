@@ -43,7 +43,7 @@
 /* History relies on this dark backdrop; the right panels supply their own. */
 .col-heritage {
   color: #fff;
-  background: hsl(240 20% 15%);
+  background: hsl(240 20% 10%);
 }
 section.panel {
   height: 100%;

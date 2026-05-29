@@ -152,7 +152,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
 .inspiration img {
   width: 22%;
   height: auto;
-  border-radius: 8mm;
+  border-radius: 16mm;
 }
 /* The eagle eye image is a fun nod to the biological inspiration, but it's
    also a convenient way to fill the space and balance the layout. */
