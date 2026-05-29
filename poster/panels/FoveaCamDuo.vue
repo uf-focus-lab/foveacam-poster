@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import PanelHeader from "../components/PanelHeader.vue";
 import GridBox from "../components/GridBox.vue";
+import { withBase } from "lib/paths";
 // Figures
 import Localization from "../assets/localization.svg";
 import StereoTracking from "../assets/stereo-tracking.svg";
@@ -28,12 +29,15 @@ import Crypsis from "../assets/crypsis.svg";
       <div class="cell duo-hero">
         <figure class="fig">
           <img
-            src="/duo/device.webp"
+            :src="withBase('duo/device.webp')"
             alt="Three-camera FoveaCam Duo assembly"
           />
         </figure>
         <figure class="fig">
-          <img src="/duo/cross-section.webp" alt="FoveaCam Duo cross section" />
+          <img
+            :src="withBase('duo/cross-section.webp')"
+            alt="FoveaCam Duo cross section"
+          />
         </figure>
       </div>
       <div class="duo-bottom">

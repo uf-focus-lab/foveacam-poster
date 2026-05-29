@@ -3,10 +3,13 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import svgLoader from "./scripts/svg-loader";
 
-// Relative base so the built poster can be served from any sub-path
-// (GitHub Pages, lab site, a USB stick) and still resolve its assets.
+// Base path is configurable for GitHub Pages (e.g. /foveacam-poster/).
+// Defaults to "/" for local dev and root deployments.
+const rawBase = process.env.VITE_BASE_URL ?? "/";
+const base = rawBase.endsWith("/") ? rawBase : `${rawBase}/`;
+
 export default defineConfig({
-  base: "./",
+  base,
   resolve: {
     // `lib` → /lib: shared, framework-agnostic helpers (sizes, …).
     alias: {

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Focus from "poster/assets/focus.svg";
 import QRCode from "poster/components/QRCode.vue";
+import { withBase } from "lib/paths";
 </script>
 
 <template>
@@ -44,12 +45,12 @@ import QRCode from "poster/components/QRCode.vue";
       "
     >
       <img
-        src="/logos/nsf-dark.webp"
+      :src="withBase('logos/nsf-dark.webp')"
         alt="National Science Foundation"
         style="height: 26mm; width: auto"
       />
       <img
-        src="/logos/onr.webp"
+      :src="withBase('logos/onr.webp')"
         alt="Office of Naval Research"
         style="height: 26mm; width: auto"
       />
@@ -75,7 +76,7 @@ import QRCode from "poster/components/QRCode.vue";
     </div>
     <div class="v-div"></div>
     <img
-      src="/logos/uf-ece.webp"
+      :src="withBase('logos/uf-ece.webp')"
       alt="University of Florida ECE"
       style="filter: brightness(0) invert(1); width: 160mm"
     />

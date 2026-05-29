@@ -4,6 +4,7 @@ import Timeline from "../components/Timeline.vue";
 import TimelineItem from "../components/TimelineItem.vue";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { withBase } from "lib/paths";
 
 // Accent sweeps from lime green (top, oldest) to cyan / light blue (bottom),
 // so each item's dot + date is a sample of the gradient at its position.
@@ -15,14 +16,14 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
   <PanelHeader style="margin: 0">Biological Inspiration</PanelHeader>
   <!-- 
   <div class="bio-inspiration">
-    <img class="eagle-eye" src="/history/eagle-eye.webp" />
+    <img class="eagle-eye" :src="withBase('history/eagle-eye.webp')" />
     <p style="margin: 8mm 0 0 0">
       Like an eagle that packs acuity in a tiny area, fast-moving
       <b>fovea</b> aims where it matters, concentrating limited sensing
       resources and steering it across a wide prepherial field of view.
     </p>
   </div> -->
-  <img class="inspiration" src="/inspiration.webp" />
+  <img class="inspiration" :src="withBase('inspiration.webp')" />
 
   <PanelHeader style="margin: 10mm 0">
     A Decade of Foveated Sensing
@@ -38,7 +39,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
       <template #supplementary>
         <img
           class="thumb"
-          src="/history/2018-RSS-FoveatedToF.webp"
+          :src="withBase('history/2018-RSS-FoveatedToF.webp')"
           alt="MEMS micromirror chip"
         />
       </template>
@@ -53,7 +54,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
       <template #supplementary>
         <img
           class="thumb"
-          src="/history/2020-ICCP-FoveaCam.webp"
+          :src="withBase('history/2020-ICCP-FoveaCam.webp')"
           alt="Foveated camera"
         />
       </template>
@@ -68,7 +69,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
       <template #supplementary>
         <img
           class="thumb"
-          src="/history/2020-IJRR-Adaptive.webp"
+          :src="withBase('history/2020-IJRR-Adaptive.webp')"
           alt="Foveated depth sensor"
         />
       </template>
@@ -83,7 +84,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
       <template #supplementary>
         <img
           class="thumb"
-          src="/history/2021-PAMI-FoveaCam.webp"
+          :src="withBase('history/2021-PAMI-FoveaCam.webp')"
           alt="Region-of-interest depth result"
         />
       </template>
@@ -98,7 +99,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
       <template #supplementary>
         <img
           class="thumb"
-          src="/history/2021-ICCV-SaccadeCam.webp"
+          :src="withBase('history/2021-ICCV-SaccadeCam.webp')"
           alt="Adaptive depth map"
         />
       </template>
@@ -113,7 +114,7 @@ const accentAt = (i: number) => `hsl(${0 + 270 * (i / (N - 1))} 80% 80%)`;
       <template #supplementary>
         <img
           class="thumb"
-          src="/history/2023-CVPR-SLM-3D.webp"
+          :src="withBase('history/2023-CVPR-SLM-3D.webp')"
           alt="Foveated LiDAR point cloud"
         />
       </template>
