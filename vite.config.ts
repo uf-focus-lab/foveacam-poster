@@ -20,7 +20,7 @@ export default defineConfig({
   },
   // svgLoader (enforce:"pre") turns imported .svg into style-scoped inline
   // Vue components; see svg-loader.ts.
-  plugins: [svgLoader(), vue()],
+  plugins: [svgLoader({ baseUrl: base }), vue()],
   build: {
     // A0 poster pulls in large figures; don't nag about chunk size.
     chunkSizeWarningLimit: 4000,

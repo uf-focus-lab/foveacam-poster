@@ -13,11 +13,37 @@ import { compileStyle } from "@vue/compiler-sfc";
 // Reused from zhangyx.net (.vitepress/svg-loader.ts) — the same loader that
 // authored the FoveaCam Duo figures, so they render identically here.
 
+type SvgLoaderOptions = {
+  baseUrl?: string;
+};
+
 function scopeId(id: string): string {
   return createHash("md5").update(id).digest("hex").slice(0, 8);
 }
 
-export default function svgLoader(): Plugin {
+function normalizeBaseUrl(baseUrl?: string) {
+  const raw = baseUrl ?? "/";
+  return raw.endsWith("/") ? raw : `${raw}/`;
+}
+
+function withBase(baseUrl: string, path: string) {
+  return `${baseUrl}${path.replace(/^\/+/, "")}`;
+}
+
+function rewriteAbsoluteUrls(value: string, baseUrl: string) {
+  return value
+    .replace(
+      /(href|xlink:href|src)=["']\\/([^"']*)["']/g,
+      (_, attr, path) => `${attr}="${withBase(baseUrl, path)}"`,
+    )
+    .replace(
+      /url\\(\\s*['"]?\\/([^'")\\s]+)['"]?\\s*\\)/g,
+      (_, path) => `url(${withBase(baseUrl, path)})`,
+    );
+}
+
+export default function svgLoader(options: SvgLoaderOptions = {}): Plugin {
+  const baseUrl = normalizeBaseUrl(options.baseUrl);
   return {
     name: "svg-loader",
     enforce: "pre",
@@ -56,8 +82,26 @@ export default function svgLoader(): Plugin {
           return `${open}${result.code}${close}`;
         },
       );
+      html = rewriteAbsoluteUrls(html, baseUrl);
 
-      const ownAttrs = JSON.stringify(svgEl.attributes);
+      const attrs = { ...svgEl.attributes };
+      for (const [key, value] of Object.entries(attrs)) {
+        if (typeof value !== "string") continue;
+        let next = value;
+        if (
+          (key === "href" || key === "xlink:href" || key === "src") &&
+          value.startsWith("/")
+        ) {
+          next = withBase(baseUrl, value);
+        }
+        next = next.replace(
+          /url\\(\\s*['"]?\\/([^'")\\s]+)['"]?\\s*\\)/g,
+          (_, path) => `url(${withBase(baseUrl, path)})`,
+        );
+        attrs[key] = next;
+      }
+
+      const ownAttrs = JSON.stringify(attrs);
       const innerHTML = JSON.stringify(html);
 
       return `
@@ -73,7 +117,7 @@ export default function svgLoader(): Plugin {
           },
           setup(props, { attrs }) {
             return () => h(props.tagName, { ...ownAttrs, ...attrs, innerHTML });
-            }
+          }
         });`;
     },
   };

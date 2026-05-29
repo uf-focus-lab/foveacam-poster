@@ -239,7 +239,7 @@
     <g transform="translate(0 0.0)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/01.webp"
+        href="/crypsis/01.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -248,7 +248,7 @@
     <g transform="translate(5.5 0.0)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/02.webp"
+        href="/crypsis/02.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -257,7 +257,7 @@
     <g transform="translate(0 5.5)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/03.webp"
+        href="/crypsis/03.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -266,7 +266,7 @@
     <g transform="translate(5.5 5.5)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/04.webp"
+        href="/crypsis/04.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -275,7 +275,7 @@
     <g transform="translate(0 11.0)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/05.webp"
+        href="/crypsis/05.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -284,7 +284,7 @@
     <g transform="translate(5.5 11.0)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/06.webp"
+        href="/crypsis/06.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -293,7 +293,7 @@
     <g transform="translate(0 16.5)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/07.webp"
+        href="/crypsis/07.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -302,7 +302,7 @@
     <g transform="translate(5.5 16.5)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/08.webp"
+        href="/crypsis/08.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -311,7 +311,7 @@
     <g transform="translate(0 22.0)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/09.webp"
+        href="/crypsis/09.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
@@ -320,7 +320,7 @@
     <g transform="translate(5.5 22.0)" clip-path="url(#mini-slot)">
       <rect width="5" height="5" rx="1" ry="1" />
       <image
-        href="crypsis/10.webp"
+        href="/crypsis/10.webp"
         width="5"
         height="5"
         preserveAspectRatio="xMidYMid meet"
