@@ -1,0 +1,4 @@
+[submodule "framework"]
+	path = framework
+	url = git@github.com:zhangyx1998/reactive-poster
+	branch = master
