@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PosterFrame from "framework/PosterFrame.vue";
+import Poster from "framework/src/Poster.vue";
 import LayoutHeader from "poster/layout/Header.vue";
 import LayoutBody from "poster/layout/Body.vue";
 import History from "poster/panels/History.vue";
@@ -9,7 +9,7 @@ import PosterHeader from "poster/panels/PosterHeader.vue";
 </script>
 
 <template>
-  <PosterFrame>
+  <Poster>
     <!-- Band heights / padding in mm; body fills the remainder (1fr). -->
     <LayoutHeader :height="100" :pad="16">
       <PosterHeader />
@@ -25,5 +25,5 @@ import PosterHeader from "poster/panels/PosterHeader.vue";
         <FoveaCamDuo />
       </template>
     </LayoutBody>
-  </PosterFrame>
+  </Poster>
 </template>
